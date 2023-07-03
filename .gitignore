@@ -1,0 +1,19 @@
+# Ignore compiled output
+/dist/
+
+# Ignore dependencies
+/node_modules/
+
+# Ignore environment variables
+.env
+
+# Ignore log files
+*.log
+
+# Ignore editor specific files
+.vscode/
+.idea/
+
+# Ignore operating system files
+.DS_Store
+Thumbs.db
