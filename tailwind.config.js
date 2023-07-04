@@ -12,7 +12,10 @@ module.exports = {
       spacing: {
         '30': '7.5rem',
       },
-
+      fontSize: {
+        '4.5xl': '2.75rem',
+        '2.5xl': '1.75rem',
+      },
     },
   },
   plugins: [],
