@@ -10,18 +10,18 @@
 </head>
 
 <body>
-    <div class="w-screen">
-        <header class="pt-6">
+    <div class="w-screen tracking-wider">
+        <header class="pt-7">
             <div id="top" class="flex flex-col w-full px-4 pb-4">
-                <div id="permanent" class="flex flex-row justify-between items-center py-2 mb-3">
+                <div id="permanent" class="flex flex-row justify-between items-center mb-3">
                     <div id="title">
-                        <img src="./assets/netmatters-logo.png" class="w-36">
+                        <img src="./assets/netmatters-logo.png" class="w-40">
                     </div>
                     <div id="nav" class="flex items-center">
-                        <div id="contact" class="mx-4">
+                        <div id="contact">
                             <a><i class="fa-solid fa-phone-volume fa-xl"></i></a>
                         </div>
-                        <div class="flex items-center justify-center rounded-md bg-gray-700 py-2 px-3 ml-4">
+                        <div class="flex items-center justify-center rounded-sm bg-gray-800 py-2 px-3 ml-4 mb-2">
                             <a id="hamburger">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="white"
                                     stroke-width="3" stroke-linecap="square" stroke-linejoin="arcs" class="w-10 h-10">
@@ -31,20 +31,20 @@
                         </div>
                     </div>
                 </div>
-                <div id="search" class="flex items-center bg-gray-200 border-gray-300 border-2">
-                    <input type="text" class="flex-1 p-2 text- text-gray-900 bg-gray-200 " placeholder="Search...">
+                <div id="search" class="flex items-center bg-gray-200 border-gray-300 border-3 mb-1 rounded-sm">
+                    <input type="text" class="flex-1 py-2 px-4 text- text-gray-900 bg-gray-200 text-sm" placeholder="Search...">
                     <img src="./assets/search.png" class="w-5 h-5 mx-2">
                 </div>
             </div>
             <div id="bottom-desktop"></div>
         </header>
         <main>
-            <div id="splash"
-                class="flex flex-col justify-center items-center bg-[url('../assets/smiling.jpg')] bg-fill bg-center pt-16 px-2">
+            <div id="hero"
+                class="flex flex-col justify-center items-center h-120 bg-[url('../assets/smiling.jpg')] bg-fill bg-center pt-16 px-2">
                 <h1 class="text-5xl text-white mb-4 font-bold text-center">Bespoke Software</h1>
                 <h2 class="text-xl text-white text-center font-bold mb-10">Delivering expert bespoke software <br>
                     solutions across a range of industries. </h2>
-                <a class="bg-blue-500 text-white px-8 py-4 text-xl rounded-md mb-2">FIND OUT MORE</a>
+                <a class="bg-gray-500 text-white px-8 py-4 text-xl rounded-md mb-2">FIND OUT MORE</a>
                 <ul class="flex justify-center my-12">
                     <li class="mr-4 text-white">O</li>
                     <li class="mr-4 text-white">O</li>
@@ -56,42 +56,42 @@
 
                 </ul>
             </div>
-            <div>
-                <h1>Our Services</h1>
-                <div id="latest-container" class="flex flex-wrap justify-around">
-                    <div class="flex flex-col justify-center items-center bg-gray-200 rounded-md w-96 h-96">
-                        <img src="./assets/it-support.jpg" alt="IT Support">
+            <div class="pt-16">
+                <h1 class="text-5xl text-gray-800 font-bold mb-14">Our Services</h1>
+                <div id="services" class="flex flex-wrap justify-around">
+                    <div class="flex flex-col justify-center items-center bg-gray-200 rounded-md w-96 h-96 border-1 border-gray-300">
+                        <img src="./assets/bespoke-software.jpg">
                         <h2>Bespoke Software</h2>
                         <p>Find Out More</p>
                     </div>
                     <div class="flex flex-col justify-center items-center bg-gray-200 rounded-md w-96 h-96">
-                        <img src="./assets/it-support.jpg" alt="IT Support">
+                        <img src="./assets/it-support.jpg">
                         <h2>IT Support</h2>
                         <p>Find Out More</p>
                     </div>
                     <div class="flex flex-col justify-center items-center bg-gray-200 rounded-md w-96 h-96">
-                        <img src="./assets/digital-marketing.jpg" alt="Digital Marketing">
+                        <img src="./assets/digital-marketing.jpg">
                         <h2>Digital Marketing</h2>
                         <p>Find Out More</p>
                     </div>
                     <div class="flex flex-col justify-center items-center bg-gray-200 rounded-md w-96 h-96">
-                        <img src="./assets/telecoms.jpg" alt="Telecoms Services">
+                        <img src="./assets/telecoms.jpg">
                         <h2>Telecoms Services</h2>
                         <p>Find Out More</p>
                     </div>
                     <div class="flex flex-col justify-center items-center bg-gray-200 rounded-md w-96 h-96">
-                        <img src="./assets/bespoke-software.jpg" alt="Bespoke Software">
+                        <img src="./assets/web-design.jpg">
                         <h2>Web Design</h2>
                         <p>Find Out More</p>
                     </div>
 
                     <div class="flex flex-col justify-center items-center bg-gray-200 rounded-md w-96 h-96">
-                        <img src="./assets/cyber-security.jpg" alt="Cyber Security">
+                        <img src="./assets/cyber-security.jpg">
                         <h2>Cyber Security</h2>
                         <p>Find Out More</p>
                     </div>
                     <div class="flex flex-col justify-center items-center bg-gray-200 rounded-md w-96 h-96">
-                        <img src="./assets/cloud-services.jpg" alt="Cloud Services">
+                        <img src="./assets/developer-training.jpg" alt="Cloud Services">
                         <h2>Developer Training</h2>
                         <p>Find Out More</p>
                     </div>
@@ -173,25 +173,25 @@
                     </div>
                 </div>
             </div>
-            <div class="flex flex-col py-6 bg-gray-300 px-4">
+            <div class="flex flex-col pt-12 pb-12 bg-gray-300 px-4">
                 <h2 id="newsletter-signup" class="text-4xl mb-4">Email Newsletter Sign-Up</h2>
                 <form class="flex flex-col">
-                    <label for="name" class="text-md mb-1">Your Name <span class="text-red-500">*</span></label>
+                    <label for="name" class="text-md mb-1 font-bold">Your Name <span class="text-red-500">*</span></label>
                     <input id="name" type="text" required class="mb-4 h-12 py-1 px-4">
-                    <label class="text-md mb-1" for="email">Your Email <span class="text-red-500">*</span></label>
+                    <label for="email" class="text-md mb-1 font-bold">Your Email <span class="text-red-500">*</span></label>
                     <input id="email" type="text" required class="mb-4 h-12 py-1 px-4">
-                    <div class="flex mb-6">
-                        <div>
-                            <input id="marketing_preference"
-                                class="w-8 h-8 mr-5 border-3 border-gray-700 rounded-sm flex-shrink-0" href="#"
-                                type="checkbox">
+                    <div class="flex mb-8">
+                        <div class="w-8 h-8 border-3 border-gray-700 rounded-sm mr-5 flex-shrink-0">
+                            <input id="marketing_preference" class=" w-full h-full" type="checkbox">
                         </div>
-                        <label for="marketing_preference" class="font-bold leading-loose text-gray-700">Please tick this
-                            box if you wish to receive marketing information from us. Please see our <a href="#"
-                                target="_blank" class="underline">Privacy Policy</a> for more information on how we keep
-                            your data safe.
+                        <label for="marketing_preference" class="font-bold leading-loose text-gray-700">
+                            Please tick this box if you wish to receive marketing information from us. Please see our
+                            <a href="#" target="_blank" class="underline">Privacy Policy</a> for more information on how
+                            we keep your data safe.
                         </label>
                     </div>
+
+
                     <input type="submit" value="SUBSCRIBE"
                         class="w-30 py-3 text-md bg-gray-700 text-white rounded-sm mb-2">
                 </form>
@@ -214,42 +214,42 @@
                 <div class="leading-relaxed pb-8">
                     <h1 class="text-md mb-6">ABOUT NETMATTERS</h1>
                     <ul class="mb-8">
-                        <li>News</li>
-                        <li>Our Careers</li>
-                        <li>Our Team</li>
-                        <li>Privacy Policy</li>
-                        <li>Cookie Policy</li>
-                        <li>Terms & Conditions</li>
-                        <li>Environmental Policy</li>
-                        <li>Contact Us</li>
+                        <li class="text-xs">News</li>
+                        <li class="text-xs">Our Careers</li>
+                        <li class="text-xs">Our Team</li>
+                        <li class="text-xs">Privacy Policy</li>
+                        <li class="text-xs">Cookie Policy</li>
+                        <li class="text-xs">Terms & Conditions</li>
+                        <li class="text-xs">Environmental Policy</li>
+                        <li class="text-xs">Contact Us</li>
                     </ul>
                     <h1 class="mb-6 text-md">OUR SERVICES</h1>
                     <ul class="mb-8">
-                        <li>Bespoke Software</li>
-                        <li>IT Support</li>
-                        <li>Digital Marketing</li>
-                        <li>Telecoms Services</li>
-                        <li>Web Design</li>
-                        <li>Cyber Security</li>
-                        <li>Developer Training</li>
+                        <li class="text-xs">Bespoke Software</li>
+                        <li class="text-xs">IT Support</li>
+                        <li class="text-xs">Digital Marketing</li>
+                        <li class="text-xs">Telecoms Services</li>
+                        <li class="text-xs">Web Design</li>
+                        <li class="text-xs">Cyber Security</li>
+                        <li class="text-xs">Developer Training</li>
                     </ul>
                     <h1 class="mb-6 text-md">OUR INDUSTRIES</h1>
                     <ul class="mb-8">
-                        <li>Financial Services</li>
-                        <li>Construction</li>
-                        <li>Retail & E-Commerce</li>
-                        <li>Non-Profits</li>
-                        <li>SME's</li>
-                        <li>Healthcare</li>
-                        <li>Education & Training</li>
-                        <li>Travel & Leisure</li>
+                        <li class="text-xs">Financial Services</li>
+                        <li class="text-xs">Construction</li>
+                        <li class="text-xs">Retail & E-Commerce</li>
+                        <li class="text-xs">Non-Profits</li>
+                        <li class="text-xs">SME's</li>
+                        <li class="text-xs">Healthcare</li>
+                        <li class="text-xs">Education & Training</li>
+                        <li class="text-xs">Travel & Leisure</li>
                     </ul>
                     <h1 class="text-md mb-6">LOCATIONS</h1>
                     <ul>
-                        <li>London Office</li>
-                        <li>Cambridge Office</li>
-                        <li>Wymondham Office</li>
-                        <li>Great Yarmouth Office</li>
+                        <li class="text-xs">London Office</li>
+                        <li class="text-xs">Cambridge Office</li>
+                        <li class="text-xs">Wymondham Office</li>
+                        <li class="text-xs">Great Yarmouth Office</li>
                     </ul>
                 </div>
             </div>
