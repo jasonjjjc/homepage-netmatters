@@ -7,6 +7,7 @@ module.exports = {
         'c-sm': '481px', // Custom breakpoint at 481 pixels
       },
     },
+    
   },
   plugins: [],
 }
