@@ -6,6 +6,12 @@ module.exports = {
       screens: {
         'c-sm': '481px', // Custom breakpoint at 481 pixels
       },
+      borderWidth: {
+        '3': '3px',
+      },
+      spacing: {
+        '30' : '7.5rem',
+      },
     },
     
   },
