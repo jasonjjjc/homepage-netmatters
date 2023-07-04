@@ -173,31 +173,47 @@
                     </div>
                 </div>
             </div>
-            <div class="flex flex-col py-6 bg-gray-300 ">
-                <h1 id="newsletter-signup" class="pb-2">Email Newsletter Sign-Up</h1>
+            <div class="flex flex-col py-6 bg-gray-300 px-4">
+                <h2 id="newsletter-signup" class="text-4xl mb-4">Email Newsletter Sign-Up</h2>
                 <form class="flex flex-col">
-                    <label for="name" class="text-xs">Your Name:</label>
-                    <input id="name" type="text" placeholder="Name" required class="mb-4">
-                    <label class="text-xs" for="email">Your Email:</label>
-                    <input id="email" type="text" placeholder="Email" required class="mb-4">
+                    <label for="name" class="text-md mb-1">Your Name <span class="text-red-500">*</span></label>
+                    <input id="name" type="text" required class="mb-4 h-12 py-1 px-4">
+                    <label class="text-md mb-1" for="email">Your Email <span class="text-red-500">*</span></label>
+                    <input id="email" type="text" required class="mb-4 h-12 py-1 px-4">
+                    <div class="flex mb-6">
+                        <div>
+                            <input id="marketing_preference"
+                                class="w-8 h-8 mr-5 border-3 border-gray-700 rounded-sm flex-shrink-0" href="#"
+                                type="checkbox">
+                        </div>
+                        <label for="marketing_preference" class="font-bold leading-loose text-gray-700">Please tick this
+                            box if you wish to receive marketing information from us. Please see our <a href="#"
+                                target="_blank" class="underline">Privacy Policy</a> for more information on how we keep
+                            your data safe.
+                        </label>
+                    </div>
                     <input type="submit" value="SUBSCRIBE"
-                        class="w-24 py-2 bg-gray-700 text-white text-xs rounded-sm mb-2">
+                        class="w-30 py-3 text-md bg-gray-700 text-white rounded-sm mb-2">
                 </form>
             </div>
         </main>
         <footer>
             <div id="links" class="pt-8 pl-4 text-white text-sm bg-gray-800">
                 <img src="./assets/nm-logo-white-med.png" class="w-60 mb-6">
-                <p class="text-md">FOLLOW US ON:</p>
-                <div class="grid grid-cols-2 gap-2 c-sm:grid-cols-4 mb-8">
-                    <div class="bg-gray-900 text-white w-28 h-16 flex items-center justify-center"><i class="fa-brands fa-facebook-f"></i></div>
-                    <div class="bg-gray-900 text-white w-28 h-16 flex items-center justify-center"><i class="fa-brands fa-linkedin-in"></i></div>
-                    <div class="bg-gray-900 text-white w-28 h-16 flex items-center justify-center"><i class="fa-brands fa-twitter"></i></div>
-                    <div class="bg-gray-900 text-white w-28 h-16 flex items-center justify-center"><i class="fa-brands fa-instagram"></i></div>
-                </div>                  
+                <p class="text-md mb-6">FOLLOW US ON:</p>
+                <div class="grid grid-cols-2 gap-3 h-32 w-56 mb-8">
+                    <div class="bg-gray-900 text-white flex items-center justify-center"><i
+                            class="fa-brands fa-facebook-f fa-2xl"></i></div>
+                    <div class="bg-gray-900 text-white flex items-center justify-center"><i
+                            class="fa-brands fa-linkedin-in fa-2xl"></i></div>
+                    <div class="bg-gray-900 text-white flex items-center justify-center"><i
+                            class="fa-brands fa-twitter fa-2xl"></i></div>
+                    <div class="bg-gray-900 text-white flex items-center justify-center"><i
+                            class="fa-brands fa-instagram fa-2xl"></i></div>
+                </div>
                 <div class="leading-relaxed pb-8">
-                    <h1 class="text-md">ABOUT NETMATTERS</h1>
-                    <ul class="mb-6">
+                    <h1 class="text-md mb-6">ABOUT NETMATTERS</h1>
+                    <ul class="mb-8">
                         <li>News</li>
                         <li>Our Careers</li>
                         <li>Our Team</li>
@@ -208,7 +224,7 @@
                         <li>Contact Us</li>
                     </ul>
                     <h1 class="mb-6 text-md">OUR SERVICES</h1>
-                    <ul class="mb-6">
+                    <ul class="mb-8">
                         <li>Bespoke Software</li>
                         <li>IT Support</li>
                         <li>Digital Marketing</li>
@@ -218,7 +234,7 @@
                         <li>Developer Training</li>
                     </ul>
                     <h1 class="mb-6 text-md">OUR INDUSTRIES</h1>
-                    <ul class="mb-6">
+                    <ul class="mb-8">
                         <li>Financial Services</li>
                         <li>Construction</li>
                         <li>Retail & E-Commerce</li>
@@ -237,7 +253,7 @@
                     </ul>
                 </div>
             </div>
-            <div id="copyright" class="p-3 bg-gray-800 text-white text-sm">
+            <div id="copyright" class="p-3 bg-gray-900 text-white text-sm">
                 <p>&copy; Copyright Netmatters 2023</p>
                 <p>All rights reserved.</p>
                 <p>Sitemap</p>
