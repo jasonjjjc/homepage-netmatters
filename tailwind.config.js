@@ -19,10 +19,11 @@ module.exports = {
         '2.4xl': '1.6rem',
         '2.5xl': '1.75rem',
         '3.5xl': '2.25rem',
+        '4.25xl': '2.5rem',
         '4.5xl': '2.75rem',
       },
       lineHeight: {
-        '11': '1.1',
+        'less-than-loose': '1.15',
       },
       borderRadius: {
         'sm-md': '0.2rem',
@@ -30,6 +31,7 @@ module.exports = {
       padding: {
         '2.5': '0.65rem',
         '3': '0.75rem',
+        '7': '1.75rem',
       },
       margin: {
         '4.5': '1.15rem',
