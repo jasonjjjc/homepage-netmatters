@@ -15,12 +15,25 @@ module.exports = {
         '7': '1.75rem',
       },
       fontSize: {
-        '4.5xl': '2.75rem',
+        '1.5xl': '1.4rem',
+        '2.4xl': '1.6rem',
         '2.5xl': '1.75rem',
         '3.5xl': '2.25rem',
+        '4.5xl': '2.75rem',
       },
       lineHeight: {
         '11': '1.1',
+      },
+      borderRadius: {
+        'sm-md': '0.2rem',
+      },
+      padding: {
+        '2.5': '0.65rem',
+        '3': '0.75rem',
+      },
+      margin: {
+        '4.5': '1.15rem',
+        '9': '2.25rem',
       },
     },
   },
