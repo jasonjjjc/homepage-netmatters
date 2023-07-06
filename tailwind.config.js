@@ -39,12 +39,16 @@ module.exports = {
       },
       width: {
         '60': '15rem',
+        'lower-card': 'calc((100% - 32px) / 2)',
       },
       height: {
         '13': '3.25rem',
       },
       maxWidth: {
         '94': '23.5rem',
+      },
+      boxShadow: {
+        'large-light': '0 0 60px rgba(0, 0, 0, 0.1)',
       },
     },
   },
