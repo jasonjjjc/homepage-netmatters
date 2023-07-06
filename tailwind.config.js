@@ -37,6 +37,15 @@ module.exports = {
         '4.5': '1.15rem',
         '9': '2.25rem',
       },
+      width: {
+        '60': '15rem',
+      },
+      height: {
+        '13': '3.25rem',
+      },
+      maxWidth: {
+        '94': '23.5rem',
+      },
     },
   },
   plugins: [],
