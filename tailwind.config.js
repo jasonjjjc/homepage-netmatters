@@ -34,10 +34,12 @@ module.exports = {
         '7': '1.75rem',
       },
       margin: {
+        '1.5': '0.375rem',
         '4.5': '1.15rem',
         '9': '2.25rem',
       },
       width: {
+        '18': '4.5rem',
         '60': '15rem',
       },
       height: {
