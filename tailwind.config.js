@@ -39,7 +39,6 @@ module.exports = {
       },
       width: {
         '60': '15rem',
-        'lower-card': 'calc((100% - 32px) / 2)',
       },
       height: {
         '13': '3.25rem',
