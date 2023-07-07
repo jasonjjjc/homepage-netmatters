@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       screens: {
-        'c-sm': '481px', // Custom breakpoint at 481 pixels
+        'c-sm': '481px',
       },
       borderWidth: {
         '3': '3px',
@@ -34,6 +34,7 @@ module.exports = {
         '2.5': '0.65rem',
         '3': '0.75rem',
         '7': '1.75rem',
+        'content-4k': '700px',
       },
       margin: {
         '1.5': '0.375rem',
