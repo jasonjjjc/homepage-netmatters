@@ -44,8 +44,8 @@
 
 <body>
     <div id="container" class="w-screen tracking-widest text-[#333645]">
-        <header class="pt-7">
-            <div id="header-top" class="px-4 pb-4 xl:px-32 2xl:px-content-4k">
+        <header class="pt-5">
+            <div id="header-top" class="px-4 pb-4 md:pb-2 md:px-8 xl:px-32 2xl:px-content-4k">
                 <div id="main-nav" class="flex flex-wrap justify-between items-center md:flex-nowrap xl:justify-start">
                     <a id="title" class="flex-1 mr-4 md:mr-12 xl:flex-none" href="#">
                         <img src="./assets/netmatters-logo.png" class="cursor-pointer mb-4">
@@ -76,7 +76,7 @@
                             <h3 class="text-white">CONTACT</h3>
                         </a>
                     </div>
-                    <div id="nav" class="flex items-center justify-between mb-4 md:order-2">
+                    <div id="nav" class="flex items-center justify-between mt-1 mb-4 md:order-2">
 
                         <div id="call" class="md:hidden">
                             <a class="cursor-pointer">
@@ -91,7 +91,7 @@
                         </div>
 
                         <div id="hamburger"
-                            class="flex items-center justify-center rounded-sm-md bg-[#333645] py-2 px-3 ml-5 cursor-pointer hover:bg-[#22242E] md:mr-4">
+                            class="flex items-center justify-center rounded-sm-md bg-[#333645] py-2 px-3 ml-5 cursor-pointer hover:bg-[#22242E] md:mr-2">
                             <a>
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="white"
                                     stroke-width="3" stroke-linecap="square" stroke-linejoin="arcs" class="w-10 h-10">
@@ -101,7 +101,7 @@
                         </div>
                     </div>
                     <div id="search"
-                        class="flex justify-between items-center w-full bg-[#E5E5E5] border-[#D6D6D6] border-2 mb-1 rounded-sm md:order-1 md:h-14 md:w-60 md:mb-4 md:bg-[#999aa2] md:border-0 md:hover:bg-[#7E808A] md:rounded-sm-md lg:w-16 xl:w-full">
+                        class="flex justify-between items-center w-full bg-[#E5E5E5] border-[#D6D6D6] border-2 mt-1 mb-1 rounded-sm md:order-1 md:h-14 md:w-60 md:mb-4 md:bg-[#999aa2] md:border-0 md:hover:bg-[#7E808A] md:rounded-sm-md lg:w-16 xl:w-full">
                         <div class="md:flex-3 md:border md:border-[#CCCCCC] md:h-14 lg:hidden xl:block xl:w-full">
                             <input type="text"
                                 class="flex-1 py-2.5 px-4 text-[#989898] bg-[#E5E5E5] text-sm md:bg-white md:h-full md:p-0 md:pl-4 md:border md:border-l-0 md:border-r-0 md:border-b-0 md:border-gray-[#EEEEEE] xl:w-full"
@@ -217,8 +217,8 @@
             </div>
         </header>
         <main>
-            <div id="hero" class="flex flex-col justify-center items-center pt-20 px-2 md:pt-40 lg:pt-32 lg:pl-11">
-                <div class="w-full flex flex-col items-center lg:items-start xl:pl-32">
+            <div id="hero" class="flex flex-col justify-center items-center pt-20 px-2 md:pt-40 lg:pt-32">
+                <div class="w-full flex flex-col items-center lg:items-start xl:pl-32 2xl:px-content-4k">
                     <h1 class="text-4.25xl text-white mb-4 font-bold text-center lg:text-6xl">Bespoke Software</h1>
                     <h2 class="text-xl text-white text-center font-bold mb-10 lg:text-left xl:text-2xl">Delivering
                         expert bespoke
@@ -242,9 +242,9 @@
                 <div id="cards-and-view-your-work"
                     class="flex flex-col px-4 md:px-6 md:flex-row md:flex-wrap md:justify-between md:items-center lg:px-10 xl:px-32 2xl:px-content-4k">
                     <h1 class="text-4.5xl font-bold mb-9">Our Services</h1>
-                    <div id="cards" class="md:order-2">
-                        <div class="flex flex-wrap justify-around">
-                            <div id="upper-cards" class="lg:grid lg:grid-cols-3 lg:gap-8">
+                    <div id="cards" class="flex flex-wrap justify-around md:order-2">
+                        <div id="upper-cards" class="lg:grid lg:grid-cols-3 lg:gap-8">
+                            <a href="#">
                                 <div id="bespoke-software"
                                     class="flex flex-col justify-center items-center w-full bg-white rounded-2xl border border-gray-300 shadow-large-light p-7 mb-8 group hover:text-white hover:bg-[#67809F] cursor-pointer transform hover:-translate-y-3 transition-all duration-500 ease-out">
                                     <div
@@ -259,7 +259,8 @@
                                         </svg>
                                     </div>
                                     <h2 class="text-xl mb-5">Bespoke Software</h2>
-                                    <p class="text-sm leading-relaxed mb-3 text-center">Bespoke software solutions for
+                                    <p class="text-sm leading-relaxed mb-3 text-center">Bespoke software solutions
+                                        for
                                         all
                                         your
                                         business needs including integrations and reporting.</p>
@@ -268,6 +269,8 @@
                                         <p>READ MORE</p>
                                     </div>
                                 </div>
+                            </a>
+                            <a href="#">
                                 <div id="it-support"
                                     class="flex flex-col justify-center items-center w-full bg-white rounded-2xl border border-gray-300 shadow-large-light p-7 mb-8 group hover:text-white hover:bg-[#4484D7] cursor-pointer transform hover:-translate-y-3 transition-all duration-500  ease-out">
                                     <div
@@ -290,6 +293,8 @@
                                         <p>READ MORE</p>
                                     </div>
                                 </div>
+                            </a>
+                            <a href="#">
                                 <div id="digital-marketing"
                                     class="flex flex-col justify-center items-center w-full bg-white rounded-2xl border border-gray-300 shadow-large-light p-7 mb-8 group hover:text-white hover:bg-[#5ECD73] cursor-pointer transform hover:-translate-y-3 transition-all duration-500  ease-out">
                                     <div
@@ -304,7 +309,8 @@
                                         </svg>
                                     </div>
                                     <h2 class="text-xl mb-5">Digital Marketing</h2>
-                                    <p class="text-sm leading-relaxed mb-3 text-center"> Driven brand awareness & ROI
+                                    <p class="text-sm leading-relaxed mb-3 text-center"> Driven brand awareness &
+                                        ROI
                                         through
                                         creative digital marketing campaigns.
                                     </p>
@@ -313,9 +319,11 @@
                                         <p>READ MORE</p>
                                     </div>
                                 </div>
-                            </div>
-                            <div id="lower-cards"
-                                class="flex flex-wrap md:grid md:grid-cols-2 md:gap-8 md:mb-14 xl:grid-cols-4">
+                            </a>
+                        </div>
+                        <div id="lower-cards"
+                            class="flex flex-wrap md:grid md:grid-cols-2 md:gap-8 md:mb-14 xl:grid-cols-4">
+                            <a href="#">
                                 <div id="telecoms-services"
                                     class="flex flex-col justify-center items-center bg-white rounded-2xl border border-gray-300 shadow-large-light p-7 mb-8 group hover:text-white hover:bg-[#D64541] cursor-pointer transform hover:-translate-y-3 transition-all duration-500 ease-out md:mb-0">
                                     <div
@@ -340,7 +348,8 @@
                                         <p>READ MORE</p>
                                     </div>
                                 </div>
-
+                            </a>
+                            <a href="#">
                                 <div id="web-design"
                                     class="flex flex-col justify-center items-center bg-white rounded-2xl border border-gray-300 shadow-large-light p-7 mb-8 group hover:text-white hover:bg-[#926FB1] cursor-pointer transform hover:-translate-y-3 transition-all duration-500 ease-out md:mb-0">
                                     <div
@@ -351,7 +360,8 @@
                                             <title>embed2</title>
                                             <path d="M26 23l3 3 10-10-10-10-3 3 7 7z"></path>
                                             <path d="M14 9l-3-3-10 10 10 10 3-3-7-7z"></path>
-                                            <path d="M21.916 4.704l2.171 0.592-6 22.001-2.171-0.592 6-22.001z"></path>
+                                            <path d="M21.916 4.704l2.171 0.592-6 22.001-2.171-0.592 6-22.001z">
+                                            </path>
                                         </svg>
 
                                     </div>
@@ -366,7 +376,8 @@
                                         <p>READ MORE</p>
                                     </div>
                                 </div>
-
+                            </a>
+                            <a href="#">
                                 <div id="cyber-security"
                                     class="flex flex-col justify-center items-center bg-white rounded-2xl border border-gray-300 shadow-large-light p-7 mb-8 group hover:text-white hover:bg-[#ED3B58] cursor-pointer transform hover:-translate-y-3 transition-all duration-500 ease-out md:mb-0">
                                     <div
@@ -379,7 +390,8 @@
                                         </svg>
                                     </div>
                                     <h2 class="text-xl mb-5">Cyber Security</h2>
-                                    <p class="text-sm leading-relaxed mb-3 text-center">Prevention, testing, consultancy
+                                    <p class="text-sm leading-relaxed mb-3 text-center">Prevention, testing,
+                                        consultancy
                                         &
                                         breach
                                         management services.
@@ -388,7 +400,8 @@
                                         <p>READ MORE</p>
                                     </div>
                                 </div>
-
+                            </a>
+                            <a href="#">
                                 <div id="developer-training"
                                     class="flex flex-col justify-center items-center bg-white rounded-2xl border border-gray-300 shadow-large-light p-7 mb-8 group hover:text-white hover:bg-[#CE412C] cursor-pointer transform hover:-translate-y-3 transition-all duration-500 ease-out md:mb-0">
                                     <div
@@ -401,7 +414,8 @@
                                         </svg>
                                     </div>
                                     <h2 class="text-xl mb-5">Developer Training</h2>
-                                    <p class="text-sm leading-relaxed mb-3 text-center">Web design & software training
+                                    <p class="text-sm leading-relaxed mb-3 text-center">Web design & software
+                                        training
                                         courses
                                         designed to secure a job in tech.</p>
                                     <div
@@ -409,7 +423,7 @@
                                         <p>READ MORE</p>
                                     </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                     </div>
                     <a id="view-our-work" class="md:order-1 md:mb-8 cursor-pointer group hover:underline" href="#">
@@ -575,103 +589,115 @@
                 </div>
             </div>
             <div id="latest-news" class="flex flex-col pt-10">
-                <div
+                <div id="cards-and-view-all-button"
                     class="flex flex-col px-4 md:px-6 md:flex-row md:flex-wrap md:justify-between lg:px-10 xl:px-32 2xl:px-content-4k">
                     <h1 class="text-3.5xl font-bold mb-10">Latest News</h1>
                     <div id="news-cards" class="md:order-2 md:grid md:grid-cols-2 md:gap-8 md:mb-16 xl:grid-cols-3">
-                        <div id="business"
-                            class="shadow-custom border mb-8 transform hover:-translate-y-2 transition-all duration-500 ease-out">
-                            <div class="relative">
-                                <p
-                                    class="absolute top-2.5 right-0 bg-[#67809F] text-white tracking-wide font-bold py-1 px-2 text-xs">
-                                    CAREERS</p>
-                                <img class="w-full" src="./assets/thumbnails/business-development-account-zUub.webp">
-                            </div>
-                            <div class="p-7 flex flex-col">
-                                <h3 class="font-bold mb-4 tracking-wider text-[#67809F]">Business Development Account
-                                    Manager
-                                </h3>
-                                <p class="text-sm tracking-wider leading-relaxed mb-6">Salary Range £35k+ per annum +
-                                    Bonus
-                                    +
-                                    Benefits Hours 40 hours per week, Mon – Fri Location Wymondha...</p>
-                                <div
-                                    class="inline px-5 py-3 mr-auto bg-[#67809F] text-white rounded-sm-md tracking-wide">
-                                    READ
-                                    MORE</div>
-                                <div class="flex items-center mt-7 pt-7 border-t">
-                                    <div class="text-2xl">
-                                        <img src="./assets/thumbnails/elliott-peacock-w8vu.webp" class="rounded-full">
-                                    </div>
-                                    <div class="ml-4.5">
-                                        <p class="font-bold text-sm tracking-wide leading-relaxed">Posted by
-                                            Elliott Peacock</p>
-                                        <p class="text-sm tracking-wide leading-relaxed">23rd June 2023</p>
+                        <a href="#">
+                            <div id="business"
+                                class="shadow-custom border mb-8 transform hover:-translate-y-2 transition-all duration-500 ease-out">
+                                <div class="relative">
+                                    <p
+                                        class="absolute top-2.5 right-0 bg-[#67809F] text-white tracking-wide font-bold py-1 px-2 text-xs">
+                                        CAREERS</p>
+                                    <img class="w-full"
+                                        src="./assets/thumbnails/business-development-account-zUub.webp">
+                                </div>
+                                <div class="p-7 flex flex-col">
+                                    <h3 class="font-bold mb-4 tracking-wider text-[#67809F]">Business Development
+                                        Account
+                                        Manager
+                                    </h3>
+                                    <p class="text-sm tracking-wider leading-relaxed mb-6">Salary Range £35k+ per annum
+                                        +
+                                        Bonus
+                                        +
+                                        Benefits Hours 40 hours per week, Mon – Fri Location Wymondha...</p>
+                                    <div
+                                        class="inline px-5 py-3 mr-auto bg-[#67809F] text-white rounded-sm-md tracking-wide">
+                                        READ
+                                        MORE</div>
+                                    <div class="flex items-center mt-7 pt-7 border-t">
+                                        <div class="text-2xl">
+                                            <img src="./assets/thumbnails/elliott-peacock-w8vu.webp"
+                                                class="rounded-full">
+                                        </div>
+                                        <div class="ml-4.5">
+                                            <p class="font-bold text-sm tracking-wide leading-relaxed">Posted by
+                                                Elliott Peacock</p>
+                                            <p class="text-sm tracking-wide leading-relaxed">23rd June 2023</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div id="web"
-                            class="shadow-custom border mb-8 transform hover:-translate-y-2 transition-all duration-500 ease-out">
-                            <div class="relative">
-                                <p
-                                    class="absolute top-2.5 right-0 bg-[#926FB1] text-white tracking-wide font-bold py-1 px-2 text-xs">
-                                    CAREERS</p>
-                                <img class="w-full" src="./assets/thumbnails/web-project-manager-FeSd.webp">
-                            </div>
-                            <div class="p-7 flex flex-col">
-                                <h3 class="font-bold mb-4 tracking-wider text-[#926FB1]">Web Project Manager</h3>
-                                <p class="text-sm tracking-wider leading-relaxed mb-6">Salary Range £24,000 - £34,000
-                                    (DOE)
-                                    +
-                                    Bonus Hours 40 hours per week, Mon – Fri Location Wymondham,...</p>
-                                <div
-                                    class="inline px-5 py-3 mr-auto bg-[#926FB1] text-white rounded-sm-md tracking-wide">
-                                    READ
-                                    MORE</div>
-                                <div class="flex items-center mt-7 pt-7 border-t">
-                                    <div class="text-2xl">
-                                        <img src="./assets/thumbnails/tom-lancaster-61K1.webp" class="rounded-full">
-                                    </div>
-                                    <div class="ml-4.5">
-                                        <p class="font-bold text-sm tracking-wide leading-relaxed">Posted by
-                                            Tom Lancaster</p>
-                                        <p class="text-sm tracking-wide leading-relaxed">23rd June 2023</p>
+                        </a>
+                        <a href="#">
+                            <div id="web"
+                                class="shadow-custom border mb-8 transform hover:-translate-y-2 transition-all duration-500 ease-out">
+                                <div class="relative">
+                                    <p
+                                        class="absolute top-2.5 right-0 bg-[#926FB1] text-white tracking-wide font-bold py-1 px-2 text-xs">
+                                        CAREERS</p>
+                                    <img class="w-full" src="./assets/thumbnails/web-project-manager-FeSd.webp">
+                                </div>
+                                <div class="p-7 flex flex-col">
+                                    <h3 class="font-bold mb-4 tracking-wider text-[#926FB1]">Web Project Manager</h3>
+                                    <p class="text-sm tracking-wider leading-relaxed mb-6">Salary Range £24,000 -
+                                        £34,000
+                                        (DOE)
+                                        +
+                                        Bonus Hours 40 hours per week, Mon – Fri Location Wymondham,...</p>
+                                    <div
+                                        class="inline px-5 py-3 mr-auto bg-[#926FB1] text-white rounded-sm-md tracking-wide">
+                                        READ
+                                        MORE</div>
+                                    <div class="flex items-center mt-7 pt-7 border-t">
+                                        <div class="text-2xl">
+                                            <img src="./assets/thumbnails/tom-lancaster-61K1.webp" class="rounded-full">
+                                        </div>
+                                        <div class="ml-4.5">
+                                            <p class="font-bold text-sm tracking-wide leading-relaxed">Posted by
+                                                Tom Lancaster</p>
+                                            <p class="text-sm tracking-wide leading-relaxed">23rd June 2023</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div id="marketing"
-                            class="shadow-custom border mb-8 transform hover:-translate-y-2 transition-all duration-500 ease-out md:hidden xl:block">
-                            <div class="relative">
-                                <p
-                                    class="absolute top-2.5 right-0 bg-[#5ECD72] text-white tracking-wide font-bold py-1 px-2 text-xs">
-                                    CAREERS</p>
-                                <img class="w-full" src="./assets/thumbnails/digital-marketing-executive-UmWA.webp">
-                            </div>
-                            <div class="p-7 flex flex-col">
-                                <h3 class="font-bold mb-4 tracking-wider text-[#5ECD72]">Digital Marketing Executive
-                                </h3>
-                                <p class="text-sm tracking-wider leading-relaxed mb-6">Salary Range £28,000 - £34,000
-                                    per
-                                    annum
-                                    + Bonus Hours 40 hours per week, Mon – Fri Location Wymondh...</p>
-                                <div
-                                    class="inline px-5 py-3 mr-auto bg-[#5ECD72] text-white rounded-sm-md tracking-wide">
-                                    READ
-                                    MORE</div>
-                                <div class="flex items-center mt-7 pt-7 border-t">
-                                    <div class="text-2xl">
-                                        <img src="./assets/thumbnails/james-palmer-1KKg.webp" class="rounded-full">
-                                    </div>
-                                    <div class="ml-4.5">
-                                        <p class="font-bold text-sm tracking-wide leading-relaxed">Posted by
-                                            Jim Palmer</p>
-                                        <p class="text-sm tracking-wide leading-relaxed">23rd June 2023</p>
+                        </a>
+                        <a href="#">
+                            <div id="marketing"
+                                class="shadow-custom border mb-8 transform hover:-translate-y-2 transition-all duration-500 ease-out md:hidden xl:block">
+                                <div class="relative">
+                                    <p
+                                        class="absolute top-2.5 right-0 bg-[#5ECD72] text-white tracking-wide font-bold py-1 px-2 text-xs">
+                                        CAREERS</p>
+                                    <img class="w-full" src="./assets/thumbnails/digital-marketing-executive-UmWA.webp">
+                                </div>
+                                <div class="p-7 flex flex-col">
+                                    <h3 class="font-bold mb-4 tracking-wider text-[#5ECD72]">Digital Marketing Executive
+                                    </h3>
+                                    <p class="text-sm tracking-wider leading-relaxed mb-6">Salary Range £28,000 -
+                                        £34,000
+                                        per
+                                        annum
+                                        + Bonus Hours 40 hours per week, Mon – Fri Location Wymondh...</p>
+                                    <div
+                                        class="inline px-5 py-3 mr-auto bg-[#5ECD72] text-white rounded-sm-md tracking-wide">
+                                        READ
+                                        MORE</div>
+                                    <div class="flex items-center mt-7 pt-7 border-t">
+                                        <div class="text-2xl">
+                                            <img src="./assets/thumbnails/james-palmer-1KKg.webp" class="rounded-full">
+                                        </div>
+                                        <div class="ml-4.5">
+                                            <p class="font-bold text-sm tracking-wide leading-relaxed">Posted by
+                                                Jim Palmer</p>
+                                            <p class="text-sm tracking-wide leading-relaxed">23rd June 2023</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div id="view-all"
                         class="flex justify-center md:order-1 mb-20 md:mb-10 cursor-pointer group hover:underline">
@@ -738,20 +764,20 @@
                     <div id="social-media">
                         <p class="text-base mb-6">FOLLOW US ON:</p>
                         <div class="inline-grid grid-cols-2 gap-3 mb-8 md:mb-10 md:grid-cols-4 md:grid-rows-1 md:gap-3">
-                            <a
-                                class="bg-[#212330] text-white flex items-center justify-center hover:bg-[#3B5998] h-14 w-24 md:w-16 md:h-14" href="#">
+                            <a class="bg-[#212330] text-white flex items-center justify-center hover:bg-[#3B5998] h-14 w-24 md:w-16 md:h-14"
+                                href="#">
                                 <i class="fab fa-facebook-f fa-2x"></i>
                             </a>
-                            <a
-                                class="bg-[#212330] text-white flex items-center justify-center hover:bg-[#2877B5] h-14 w-24 md:w-16 md:h-14" href="#">
+                            <a class="bg-[#212330] text-white flex items-center justify-center hover:bg-[#2877B5] h-14 w-24 md:w-16 md:h-14"
+                                href="#">
                                 <i class="fab fa-linkedin-in fa-2x"></i>
                             </a>
-                            <a
-                                class="bg-[#212330] text-white flex items-center justify-center hover:bg-[#41ACED] h-14 w-24 md:w-16 md:h-14" href="#">
+                            <a class="bg-[#212330] text-white flex items-center justify-center hover:bg-[#41ACED] h-14 w-24 md:w-16 md:h-14"
+                                href="#">
                                 <i class="fab fa-twitter fa-2x"></i>
                             </a>
-                            <a
-                                class="bg-[#212330] text-white flex items-center justify-center hover:bg-[#DA3A75] h-14 w-24 md:w-16 md:h-14" href="#">
+                            <a class="bg-[#212330] text-white flex items-center justify-center hover:bg-[#DA3A75] h-14 w-24 md:w-16 md:h-14"
+                                href="#">
                                 <i class="fab fa-instagram fa-2x"></i>
                             </a>
                         </div>
@@ -768,7 +794,8 @@
                             <li class="text-xs mb-1.5 hover:underline"><a href="#">Contact Us</a></li>
                             <li class="text-xs mb-1.5 hover:underline"><a href="#">Privacy Policy</a></li>
                             <li class="text-xs mb-1.5 hover:underline"><a href="#">Cookie Policy</a></li>
-                            <li class="text-xs mb-1.5 hover:underline"><a href="#">Data Retention and Disposal Policy</a></li>
+                            <li class="text-xs mb-1.5 hover:underline"><a href="#">Data Retention and Disposal
+                                    Policy</a></li>
                             <li class="text-xs mb-1.5 hover:underline"><a href="#">CCTV Policy</a></li>
                             <li class="text-xs mb-1.5 hover:underline"><a href="#">Environmental Policy</a></li>
                             <li class="text-xs mb-1.5 hover:underline"><a href="#">Terms & Conditions</a></li>
