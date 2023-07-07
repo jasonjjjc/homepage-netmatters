@@ -52,7 +52,8 @@ module.exports = {
         '94': '23.5rem',
       },
       boxShadow: {
-        'large-light': '0 0 60px rgba(0, 0, 0, 0.1)',
+        'large-light': '0 0 40px rgba(0, 0, 0, 0.1)',
+        'custom': '0px 30px 40px -10px rgba(0, 0, 0, 0.1)',
       },
     },
   },
