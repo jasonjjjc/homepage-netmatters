@@ -3,9 +3,6 @@ module.exports = {
   content: ["./*.html"],
   theme: {
     extend: {
-      screens: {
-        'c-sm': '481px',
-      },
       borderWidth: {
         '3': '3px',
       },
