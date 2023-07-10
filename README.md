@@ -1,3 +1,6 @@
+//  Server startup and refresh command
+//  npx tailwindcss -i styles.css -o ./dist/output.css --watch
+
 Project
 
 Time: 2 weeks
