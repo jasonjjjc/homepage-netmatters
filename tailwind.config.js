@@ -3,9 +3,6 @@ module.exports = {
   content: ["./*.html"],
   theme: {
     extend: {
-      screens: {
-        'c-sm': '481px',
-      },
       borderWidth: {
         '3': '3px',
       },
@@ -26,9 +23,6 @@ module.exports = {
       },
       lineHeight: {
         'less-than-loose': '1.15',
-      },
-      borderRadius: {
-        'sm-md': '0.2rem',
       },
       padding: {
         '2.5': '0.65rem',
